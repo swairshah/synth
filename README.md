@@ -4,9 +4,11 @@
 
 Raw data -> data-instructdata model -> filter
 
-prompt2model : https://arxiv.org/abs/2308.12261
-genstruct-7b: https://huggingface.co/BatsResearch/bonito-v1
-bonito: https://huggingface.co/BatsResearch/bonito-v1
+* prompt2model : https://arxiv.org/abs/2308.12261
+
+* genstruct-7b: https://huggingface.co/BatsResearch/bonito-v1
+
+* bonito: https://huggingface.co/BatsResearch/bonito-v1
 
 ## Approach 2.
 
