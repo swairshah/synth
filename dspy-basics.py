@@ -1,7 +1,7 @@
 import re
 import dspy 
 from styles import * 
-from app import *
+from dialog.dialog import *
 
 llm = dspy.OpenAI(model="gpt-3.5-turbo-0125", max_tokens=250)
 # llm.basic_request("this is a test")
