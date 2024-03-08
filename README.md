@@ -16,4 +16,14 @@ dspy seed examples -> singature optimization with human input
 
 ## Approach 3.
 
-Custom prompt + custom examples + custom eval prompt
+Custom prompt (p_0) + custom examples + custom eval prompt
+
+```
+while (n_loop < iter_limit or selection_rate < threshold):
+1. Given a base prompt p_i (+ a few seed example, generate a sample
+2. Ask evaluator in the loop to select/reject them
+3. run evaluator prompt to modify prompt to get p_{i+1}
+```
+
+* Automatic Prompt Optimization with "Gradient Descent" and Beam Search https://arxiv.org/abs/2305.03495
+* Promptbreeder : https://arxiv.org/abs/2309.16797
