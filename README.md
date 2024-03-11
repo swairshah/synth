@@ -27,3 +27,19 @@ while (n_loop < iter_limit or selection_rate < threshold):
 
 * Automatic Prompt Optimization with "Gradient Descent" and Beam Search https://arxiv.org/abs/2305.03495
 * Promptbreeder : https://arxiv.org/abs/2309.16797
+Custom prompt + custom examples + custom eval prompt
+
+----
+read
+
+https://evjang.com/2023/03/26/self-reflection.html
+
+https://nanothoughts.substack.com/p/reflecting-on-reflexion
+
+https://drchrislevy.github.io/posts/dspy/dspy.html
+
+https://kanav-ai.notion.site/DSPy-6f508d1db80542278ee0d6a94676e1ca
+
+https://gist.github.com/cfcosta/05b1ccd898e1fb8fd5b93bc01916e66a
+
+https://hamel.dev/blog/posts/prompt/
